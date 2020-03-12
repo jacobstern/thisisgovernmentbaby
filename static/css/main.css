@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+  background-image: url("/static/img/cuomo.png");
+  background-repeat: repeat;
+}
+
+.play-overlay {
+  position: relative;
+  display: flex;
+  flex: 1;
+  background: rgba(0, 20, 28, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.play-image {
+  width: 195px;
+  height: 195px;
+}
+
+#word-art {
+  position: fixed;
+  display: none;
+  height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
